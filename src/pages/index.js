@@ -8,7 +8,7 @@ export default function Home() {
 
   const postUser = () => {
 
-    axios.post('http://colabeduc.org/api/login', {
+    axios.post('/api/http://colabeduc.org/api/login', {
         username : username,
         password : password
       }
